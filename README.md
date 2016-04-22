@@ -9,6 +9,6 @@ To build TWRP:
     make installclean
     make recoveryimage
           or
-    time make recoveryimage (This will display how much time your pc took recovery image).
+    time make recoveryimage (This will display how much time your pc took to build recovery image).
 ------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------
