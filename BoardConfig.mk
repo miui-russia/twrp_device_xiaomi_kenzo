@@ -44,8 +44,8 @@ TARGET_2ND_ARCH_VARIANT                   := armv7-a-neon
 TARGET_2ND_CPU_ABI                        := armeabi-v7a
 TARGET_2ND_CPU_ABI2                       := armeabi
 TARGET_2ND_CPU_VARIANT                    := generic
-TARGET_GLOBAL_CFLAGS += -mfpu=neon -mfloat-abi=softfp
-TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
+TARGET_GLOBAL_CFLAGS                      += -mfpu=neon -mfloat-abi=softfp
+TARGET_GLOBAL_CPPFLAGS                    += -mfpu=neon -mfloat-abi=softfp
 
 # Kernel
 BOARD_KERNEL_BASE                         := 0x80000000
@@ -74,4 +74,3 @@ RECOVERY_SDCARD_ON_DATA                   := true
 TW_DEFAULT_EXTERNAL_STORAGE               := true
 TW_BRIGHTNESS_PATH                        := /sys/class/leds/lcd-backlight/brightness
 TW_INCLUDE_CRYPTO                         := true
-
