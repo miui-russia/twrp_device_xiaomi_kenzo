@@ -1,4 +1,4 @@
-# TWRP Tree For Redmi Note 3 (kenzo)
+# TWRP Tree For Xiaomi Redmi Note 3 (kenzo).....
 
 To build TWRP:
 --------------
